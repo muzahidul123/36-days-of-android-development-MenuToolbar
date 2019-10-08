@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Settings"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:id="@+id/settings">
+
+        <menu>
+
+            <item
+                android:title="Update Profile"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:id="@+id/updateprofile"></item>
+
+            <item
+                android:title="Security"
+                android:icon="@drawable/ic_security_black_24dp"
+                android:id="@+id/security"></item>
+
+            <item
+                android:title="Generel"
+                android:id="@+id/generel">
+
+                <menu>
+
+                    <item
+                        android:title="Password"
+                        android:icon="@drawable/ic_fingerprint_black_24dp"
+                        android:id="@+id/password"></item>
+                    <item
+                        android:title="Disable ID"
+                        android:icon="@drawable/ic_sync_disabled_black_24dp"
+                        android:id="@+id/disableid"></item>
+
+
+                </menu>
+
+            </item>
+
+        </menu>
+
+        </item>
+</menu>
